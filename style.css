@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#howdy {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#myName {
+    font-size: 25px;
+    text-align: center;
+}
+
+.nametag {
+    width: 325px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    /* margin: auto; */
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+#tabetha {
+    height: 125px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:palevioletred;
+}
+
+.bottom {
+    height: 40px;
+}
+
